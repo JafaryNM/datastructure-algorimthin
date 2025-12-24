@@ -16,7 +16,7 @@ function maxChar(str) {
       charMap[char] = 1;
     }
   }
-  for (let char of ) {
+  for (let char of str) {
     if (charMap[char] > max) {
       max = charMap[char];
       maxChar = char;
