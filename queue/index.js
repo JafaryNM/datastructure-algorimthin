@@ -8,19 +8,6 @@
 //     q.add(1);
 //     q.remove(); // returns 1;
 
-// class Queue {
-//   constructor() {
-//     this.data = [];
-//   }
-//   add(record) {
-//     return this.data.unshift(record);
-//   }
-
-//   remove() {
-//     return this.data.pop();
-//   }
-// }
-
 class Queue {
   constructor() {
     this.data = [];
@@ -32,6 +19,10 @@ class Queue {
 
   remove() {
     return this.data.pop();
+  }
+
+  peak() {
+    return this.data[this.data.length - 1];
   }
 }
 
